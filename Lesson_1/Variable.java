@@ -16,6 +16,6 @@ public class Variable {
         System.out.println("RAM total, Kb = " + ramTotalKb);
         System.out.println("RAM vmalloc total, Kb = " + ramVmallocTotalKb);
         System.out.println("Operating system name first letter = " + osNameFirstLetter);
-        System.out.println("Is CUDA available = " + Boolean.toString(isCudaAvailable));
+        System.out.println("Is CUDA available = " + isCudaAvailable);
     }
 }
