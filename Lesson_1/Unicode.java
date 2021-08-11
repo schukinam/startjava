@@ -5,6 +5,5 @@ public class Unicode {
             symbolResult = (char) i;
             System.out.println("Код: " + i + "; Символ: " + symbolResult);
         }
-        
     }
 }
