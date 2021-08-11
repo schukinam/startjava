@@ -28,7 +28,6 @@ public class Calculator {
             System.out.println("Операция не выбрана");
             System.exit(0);
         }
-
         System.out.println("Результат выполнения операции: " + mathResult);
     }
 }
