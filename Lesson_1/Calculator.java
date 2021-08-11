@@ -7,7 +7,7 @@ public class Calculator {
         // available opertations: + - * / ^ %
         char operation = '^';
         System.out.println("Операция: " + operation);
-        float mathResult = 0;
+        float mathResult = 0f;
 
         if(operation == '+') {
             mathResult = firstNumber + secondNumber;
