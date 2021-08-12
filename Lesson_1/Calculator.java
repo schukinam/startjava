@@ -20,13 +20,13 @@ public class Calculator {
         } else if(operation == '^') {
             mathResult = firstNumber;
             for(int i = 2; i <= secondNumber; i++) {
-                mathResult *= i;
+                mathResult *= firstNumber;
             }
         } else if(operation == '%') {
             mathResult = firstNumber % secondNumber;
         } else {
             System.out.println("Операция не выбрана");
-            System.exit(0);
+            return;
         }
         System.out.println("Результат выполнения операции: " + mathResult);
     }
